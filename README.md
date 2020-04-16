@@ -1,12 +1,12 @@
-### Simple Blog - Backend
+# Simple Blog - Backend
 
 ## createPost
 
-- # Url
+- ### Url
   /create
-- # Method
+- ### Method
   `Post`
-- # Success response
+- ### Success response
   - _Code_: 200
     Content:
     ```
@@ -15,35 +15,35 @@
       post: newPost,
     }
     ```
-- # Error response
+- ### Error response
   - _Code_: 404
 
 ## getAllPosts
 
-- # Url
+- ### Url
   /
-- # Method
+- ### Method
   `Get`
-- # Success response
+- ### Success response
   - _Code_: 200
     Content:
     ```
     { message: "Success! All posts have been queried", posts }
     ```
-- # Error response
+- ### Error response
   - _Code_: 404
 
 ## getSinglePost
 
-- # Url
+- ### Url
   /get
-- # Method
+- ### Method
   `Get`
-- # Success response
+- ### Success response
   - _Code_: 200
     Content:
     ```
     { message: "Success! A post has been queried", post }
     ```
-- # Error response
+- ### Error response
   - _Code_: 404
