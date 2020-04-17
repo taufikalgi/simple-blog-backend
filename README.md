@@ -65,4 +65,4 @@ npm install
 npm start
 ```
 
-[Simple Blog - Frontend](https://github.com/taufikalgi/simple-blog-frontend)
+Click [Simple Blog - Frontend](https://github.com/taufikalgi/simple-blog-frontend) for the frontend
