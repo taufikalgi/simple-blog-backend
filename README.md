@@ -47,3 +47,22 @@
     ```
 - ### Error response
   - _Code_: 404
+
+## Installation and Buildings
+
+Interested on running this project locally?
+Here's how.
+
+```
+# Clone this repository
+git clone https://github.com/taufikalgi/simple-blog-backend
+cd simple-blog-backend
+
+# Install required dependency
+npm install
+
+# Run
+npm start
+```
+
+[Simple Blog - Frontend](https://github.com/taufikalgi/simple-blog-frontend)
