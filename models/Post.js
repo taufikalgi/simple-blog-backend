@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const postSchema = mongoose.Schema(
   {
@@ -13,10 +13,10 @@ const postSchema = mongoose.Schema(
     author: {
       type: String,
       required: true,
-    }
+    },
   },
-  { timesStamps: true }
+  { timestamps: true }
 );
 
-const Post = mongoose.model('Post', postSchema);
+const Post = mongoose.model("Post", postSchema);
 module.exports = Post;

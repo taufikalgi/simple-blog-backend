@@ -19,6 +19,7 @@ const createPost = async (req, res, next) => {
 const getAllPosts = async (req, res, next) => {
   try {
     const posts = await Post.find({}).sort({ createdAt: "desc" });
+    console.log(posts);
     res.send({ message: "Success! All posts have been queried", posts });
   } catch (err) {
     const error = new Error("An error occured");
@@ -29,7 +30,7 @@ const getAllPosts = async (req, res, next) => {
 
 const getSinglePost = async (req, res, next) => {
   try {
-    const post = await Post.findOne({ _id: req.body.id });
+    const post = await Post.findOne({ _id: req.params.id });
     res.send({ message: "Success! A post has been queried", post });
   } catch (err) {
     const error = new Error("An error occured");
